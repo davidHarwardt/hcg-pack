@@ -1,0 +1,82 @@
+{
+	id: "18E33C82B064A1C9"
+	group: ""
+	order_index: 2
+	filename: "computercraft_intro"
+	title: "Computercraft: Intro"
+	icon: "computercraft:computer_advanced"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The ComputerCraft Mod"
+			icon: "computercraft:computer_advanced"
+			x: 0.0d
+			y: 0.0d
+			description: [
+				"The ComputerCraft Mod (abbr.: CC) allows for scripting using \"Lua\" within Minecraft."
+				""
+				"This quest provides you with a computer to get started"
+			]
+			dependencies: ["0C0EFA5AFBA6B77F"]
+			id: "79990FBBE8F9062B"
+			tasks: [{
+				id: "174829828EB96C19"
+				type: "checkmark"
+				title: "Getting started"
+			}]
+			rewards: [{
+				id: "2B56116B7BE22E1F"
+				type: "item"
+				item: "computercraft:computer_advanced"
+			}]
+		}
+		{
+			title: "The ComputerCraft Shell"
+			icon: "minecraft:nautilus_shell"
+			x: 1.5d
+			y: 0.0d
+			description: [
+				"You can Right-click a computer to open its shell."
+				"The shell can be used to interact with the Computer using commands."
+				""
+				"Some of the commands and their functionalities include:"
+				"- clear: clears the entire shell window"
+				"- cd <dir>: changes the directory"
+				"  (folder) to the specified one"
+				"- copy <source> <target>: copies"
+				"  the source file to the target"
+				"- move <source> <target>: moves"
+				"  the source file to the target"
+				"- rm <path>: deletes"
+				"  the specified file"
+				"- help: shows general help"
+				"- mkdir <path>: creates a directory"
+				"- reboot: reboots the computer"
+				"- shutdown: shuts the computer down"
+				""
+				"You can press <Tab> at any time to autocomplete the commands."
+			]
+			dependencies: ["79990FBBE8F9062B"]
+			id: "68BAF91B879443F4"
+			tasks: [{
+				id: "30F243EE70E73772"
+				type: "checkmark"
+				title: "Open a computer to view its shell"
+			}]
+		}
+		{
+			icon: "minecraft:command_block"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["68BAF91B879443F4"]
+			id: "599860CE497A411E"
+			tasks: [{
+				id: "456EEF9C4B3B2566"
+				type: "checkmark"
+				title: "Writing Programms"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

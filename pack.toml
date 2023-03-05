@@ -1,0 +1,13 @@
+name = "hcg-inf"
+author = "DVMUJIC"
+version = "0.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "a82fa63208c64653b25a9f56954fc6e06bb54e58b9e65130016833dbc516a08a"
+
+[versions]
+fabric = "0.14.17"
+minecraft = "1.18.2"

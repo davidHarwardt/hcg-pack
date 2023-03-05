@@ -1,0 +1,49 @@
+{
+	id: "7AC655B5E37A4762"
+	group: ""
+	order_index: 1
+	filename: "teams"
+	title: "Teams"
+	icon: "minecraft:player_head"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/friends.png"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			dependencies: ["0C0EFA5AFBA6B77F"]
+			id: "6DE4191C238F51EA"
+			tasks: [{
+				id: "590940B224A344DE"
+				type: "checkmark"
+				title: "Create or Join a team"
+			}]
+		}
+		{
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/map.png"
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0C0EFA5AFBA6B77F"]
+			id: "1CFC9592CC397219"
+			tasks: [{
+				id: "1ADD36C1809D520E"
+				type: "checkmark"
+				title: "Claiming chunks"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

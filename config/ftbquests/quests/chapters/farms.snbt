@@ -1,0 +1,12 @@
+{
+	id: "1B49D185D47E1412"
+	group: ""
+	order_index: 4
+	filename: "farms"
+	title: "Farms"
+	icon: "minecraft:oak_sapling"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [ ]
+	quest_links: [ ]
+}

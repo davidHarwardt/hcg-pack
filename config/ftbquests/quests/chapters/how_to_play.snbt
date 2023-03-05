@@ -1,0 +1,244 @@
+{
+	id: "0C0EFA5AFBA6B77F"
+	group: ""
+	order_index: 0
+	filename: "how_to_play"
+	title: "Getting Started"
+	icon: "minecraft:cobblestone"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "I have played before"
+			icon: "minecraft:nether_star"
+			x: 0.0d
+			y: 3.5999999999999996d
+			shape: "rsquare"
+			subtitle: "skip the Intro to Minecraft"
+			dependency_requirement: "one_completed"
+			size: 1.2d
+			optional: true
+			id: "16AC7BA9D921D07B"
+			tasks: [{
+				id: "0BCE8C74025F04F0"
+				type: "checkmark"
+				title: "Check to skip intro"
+			}]
+			rewards: [{
+				id: "6EB611C1D7F1DA8E"
+				type: "command"
+				title: "Tutorial completion"
+				icon: "ftbquests:book"
+				team_reward: false
+				auto: "no_toast"
+				exclude_from_claim_all: true
+				command: "/ftbquests change_progress @p complete 0C0EFA5AFBA6B77F"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			dependencies: ["577C8643E3C47EDB"]
+			id: "314FC85E4D93C7CE"
+			tasks: [{
+				id: "1B355E01B7E1286C"
+				type: "stat"
+				title: "Use W,A,S,D to walk"
+				icon: {
+					id: "minecraft:iron_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:walk_one_cm"
+				value: 20
+			}]
+		}
+		{
+			title: "Left-Click your Questbook"
+			icon: "ftbquests:book"
+			x: 0.0d
+			y: 0.0d
+			id: "534866F3F5D1D42B"
+			tasks: [{
+				id: "03FF2DFE9F7FB996"
+				type: "checkmark"
+				title: "Check tasks to complete them"
+			}]
+		}
+		{
+			title: "Controls"
+			disable_toast: true
+			x: 1.5d
+			y: 0.0d
+			dependencies: ["534866F3F5D1D42B"]
+			id: "577C8643E3C47EDB"
+			tasks: [{
+				id: "04BA6AA0FFD4D817"
+				type: "stat"
+				title: "-"
+				icon: "minecraft:command_block"
+				stat: "minecraft:play_time"
+				value: 1
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			dependencies: ["577C8643E3C47EDB"]
+			id: "032880087D778B49"
+			tasks: [{
+				id: "64FF0ACA188367C1"
+				type: "stat"
+				title: "Press <Space> to jump"
+				icon: "minecraft:piston"
+				stat: "minecraft:jump"
+				value: 2
+			}]
+		}
+		{
+			title: "Press <E> to open your Inventory"
+			icon: "minecraft:chest"
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["577C8643E3C47EDB"]
+			id: "24C8DDFCEB133656"
+			tasks: [{
+				id: "77555EA808B36502"
+				type: "checkmark"
+				title: "check on completion"
+			}]
+		}
+		{
+			title: "Break a tree"
+			x: 5.5d
+			y: 0.0d
+			subtitle: "Try to remove the entire tree, the leaves decay over time"
+			dependencies: [
+				"314FC85E4D93C7CE"
+				"24C8DDFCEB133656"
+				"032880087D778B49"
+				"793B1A8527E5FCF0"
+			]
+			id: "16621EE0E10B9D13"
+			tasks: [{
+				id: "49C9861098FC4B47"
+				type: "item"
+				title: "Hold Left-Click to break Logs"
+				icon: "minecraft:oak_log"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				count: 5L
+			}]
+			rewards: [{
+				id: "18B831B66BB1529F"
+				type: "item"
+				team_reward: false
+				item: "minecraft:oak_log"
+				count: 64
+			}]
+		}
+		{
+			title: "Craft some Planks"
+			x: 7.0d
+			y: 0.0d
+			description: [
+				"You can use the sidebar in your Inventory (REI) to find recipes."
+				"To find a recipe, type the name of the Item in the searchbar."
+				"Click on an item in the sidebar to view its recipe."
+			]
+			dependencies: ["16621EE0E10B9D13"]
+			id: "49C65D77E0539437"
+			tasks: [{
+				id: "6506A82CC921A3F9"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 4L
+			}]
+		}
+		{
+			title: "Craft a Crafting Table"
+			x: 8.5d
+			y: 0.0d
+			subtitle: "The crafting table allows for more recipes to be crafted with its 3x3 grid."
+			dependencies: ["49C65D77E0539437"]
+			id: "40C441C943AE0F31"
+			tasks: [{
+				id: "2A06F2B1F60C0993"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Sprinting makes you walk faster but it also consumes hunger faster (represented by the drumsticks)"
+			dependencies: ["577C8643E3C47EDB"]
+			id: "793B1A8527E5FCF0"
+			tasks: [{
+				id: "7A718C89CD9D9818"
+				type: "stat"
+				title: "Press <Ctrl> to sprint"
+				icon: "minecraft:feather"
+				stat: "minecraft:sprint_one_cm"
+				value: 20
+			}]
+		}
+		{
+			title: "Place the Crafting Table"
+			icon: "minecraft:grass_block"
+			x: 10.0d
+			y: 0.0d
+			dependencies: ["40C441C943AE0F31"]
+			id: "0F7FCFF8EFE2F46D"
+			tasks: [{
+				id: "655E0E7027D4F72C"
+				type: "observation"
+				title: "Place blocks using Right-click"
+				icon: "minecraft:crafting_table"
+				timer: 0L
+				observe_type: 0
+				to_observe: "minecraft:crafting_table"
+			}]
+		}
+		{
+			title: "Craft and Use a chest"
+			icon: "minecraft:chest"
+			x: 11.5d
+			y: 0.0d
+			subtitle: "Chests can be used to store items"
+			dependencies: ["0F7FCFF8EFE2F46D"]
+			id: "371635EA2518B9F7"
+			tasks: [
+				{
+					id: "12E2EF1A48CCC0FE"
+					type: "item"
+					title: "Craft a chest"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:wooden_chests"
+						}
+					}
+				}
+				{
+					id: "5AFC3CA4E80FEAEA"
+					type: "stat"
+					title: "Right-Click the chest to open"
+					icon: "minecraft:glass_pane"
+					stat: "minecraft:open_chest"
+					value: 1
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
