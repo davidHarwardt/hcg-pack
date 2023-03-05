@@ -1,6 +1,182 @@
 hash-format = "sha256"
 
 [[files]]
+file = "build.sh"
+hash = "8511350ab4f54511cced8db10a52a05d79538fa1af853944f02b5b3e473ba17a"
+
+[[files]]
+file = "build/hcg-pack-client.zip"
+hash = "2435440d52234305da1a526ea30ade6ef4f2dd290071676855a18af54c99a8c9"
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
+file = "config/capes.json5"
+hash = "948629560fe324ea7c2ab87a955f9f33c6995145d326b3ac5a50fbc2707d0a95"
+
+[[files]]
+file = "config/computercraft-client.toml"
+hash = "20772df2e321ec660a746f6d1a11395b62679c6301c84bacacb2f51ab02a9db1"
+
+[[files]]
+file = "config/ctm.json"
+hash = "108892821d53d2d12cbc07e37028e3c350a0d179a6620fc4e2067b6dcb9d6caa"
+
+[[files]]
+file = "config/extended_drawers/client.properties"
+hash = "021d7794e212a6360a10bf7e2d7da5d88a08c55783bdfe2767eb5c698ae95807"
+
+[[files]]
+file = "config/extended_drawers/common.properties"
+hash = "b6d5a2e2415b910479e1d3461f97def4a1d9a2e818d6bf9a88856ba0f1586424"
+
+[[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "55664726a20fe8313df433bb8b0bf982177dd08f066de36f43196553ed3a883c"
+
+[[files]]
+file = "config/ftbbackups2.json"
+hash = "a2982f5db600519b801ce5557cb1eaca306e9cbab58ac154cfbf10a5a8d8273f"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/computercraft_intro.snbt"
+hash = "aba8a6adcc678fbdaa21b166774adcdb22b159977213918ae4c37c85a9797511"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/contraptions.snbt"
+hash = "f4c7b12e025d1a82ca7d26bee24050da727bea6a76444471b0462c9cbb5aca01"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/farms.snbt"
+hash = "0cc7436eb4c3dc4c72390b4daa9ddc7e1b68153d8e4d191c5a1a7256828c281d"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/how_to_play.snbt"
+hash = "67835f4b74223f942a4e354d5cde71215d76708ebaae1fb4df7ae74ccf41fdc0"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/teams.snbt"
+hash = "2597d905f78ab748254c01a0d594654035b54bc4c6e28ce29fb81b024f225636"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/turtles_intro.snbt"
+hash = "7ccdaa3efea5d3e9345d808cf02ebfa680933c4d801ad1141bb3422ab8ee90c0"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "f361bbc3fd785449097ffc00050cc50b44dd4d8d621ac2367a9c9aecf0d95c41"
+
+[[files]]
+file = "config/harvestwithease-common.toml"
+hash = "4c59189c68db67f1ab4ac554a4d6c9f917ab1cd29dfbf4c5beae5c02d3cdd391"
+
+[[files]]
+file = "config/inventorysorter/blacklist.json5"
+hash = "274dcf155e9646094d42f860442f2c29f627145c90ad01d6ea10833915552687"
+
+[[files]]
+file = "config/inventorysorter/config.json5"
+hash = "3f6a69f6b0c8bf3b6c9e19964666ebd0e45bc5964c072d3ff1841e8a7ea0973a"
+
+[[files]]
+file = "config/jsonem.properties"
+hash = "6ff828a0b15de74c96a07709d1ea3f52f5feed0a9bf0d2487a6fec8413d8d6f6"
+
+[[files]]
+file = "config/lithium.properties"
+hash = "76765e8e5ff8e927d80beb0739aababcf36e7babfd94262f2afece256cc5cd2e"
+
+[[files]]
+file = "config/modmenu.json"
+hash = "503f96151dab202359895d267084c5ca81604cf9a3455446c20a5c0c69ec7cdb"
+
+[[files]]
+file = "config/peripheralium-common.toml"
+hash = "3b32f14dc9d1befe9131a5aadd6873da465db28c3938e1932a67291798ce0635"
+
+[[files]]
+file = "config/peripheralworks-common.toml"
+hash = "a6e93c85590fb06c50a6c22b619815a97ad7592037238f928e99ed1c560f0a9b"
+
+[[files]]
+file = "config/ping-wheel.json"
+hash = "7268ee7885d98f2e317905d4b22dbbece4f43b26f0d6d3af6f58cde61079228f"
+
+[[files]]
+file = "config/quartzelv.json"
+hash = "2b5ba2132b2a7a79c239ef3ee3c3ab86188c859b9419ba32ef48dab57a63a1d1"
+
+[[files]]
+file = "config/roughlyenoughitems/changelog.txt"
+hash = "8d3828692497be68d54e98820db28df65ef79b28f16ec4ebeef0e0916588dd8e"
+
+[[files]]
+file = "config/roughlyenoughitems/config.json5"
+hash = "5c24cae9b16496e2dd8726783915b9f661cacadd4328c22200bca7d8fa969549"
+
+[[files]]
+file = "config/roughlyenoughitems/hints.json"
+hash = "cbd06df2b15c742a8147ea947ece4aab9b7abb307a36cbad70be654e2acc31b0"
+
+[[files]]
+file = "config/roughlyenoughitems/pinyin.properties"
+hash = "d22165ce4980faa328c3180d4b9f6f0f2defc8d85e302f1104ba6417c93f0261"
+
+[[files]]
+file = "config/roughlyenoughitems/pinyin_double.properties"
+hash = "38525cba9ede6d3d94b0a62931ccd7fa0a728533389250c44fd1584b0dd77633"
+
+[[files]]
+file = "config/rrp.properties"
+hash = "6cd575b5b43858329a422ff1ddd2d92d824a5648b0e05bd1fa74c5d57fad4eab"
+
+[[files]]
+file = "config/sidebar_buttons.json"
+hash = "c08a0b6c31c13c3b586a9d4d46e23f13a1fc03ef509db802f8ce27e95a33a1a1"
+
+[[files]]
+file = "config/smithees-foundry.json"
+hash = "ad0de5e74a7529928c0cdb6733caece75e647afb2e5fc0f46f05b5af18978d4b"
+
+[[files]]
+file = "config/sodium-mixins.properties"
+hash = "051558518a6f3350fadb1546346d937e7f78f69834a075bf91b59921f151cc26"
+
+[[files]]
+file = "config/sodium-options.json"
+hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
+
+[[files]]
+file = "config/squatgrow-common.yaml"
+hash = "bb445bf4f4aebd3bb87fad2c6a204f836309e7d6825dbc60753f3cc975b47713"
+
+[[files]]
+file = "config/tempad.json"
+hash = "10aee7125be54dbc1ca906e3505e5074c84790d04c0836ae8a22bc3db259218c"
+
+[[files]]
+file = "config/tempad_client.json"
+hash = "9b93026de9c7f203cefbb49730fcf5c875d40280eaf0369d4a9b841043cd297b"
+
+[[files]]
+file = "config/toms_storage.json"
+hash = "ebd3d7ddf4e75b9b293bb6e389110a25a17ff1f1de4d3ea931d73368f6347039"
+
+[[files]]
+file = "config/turtlematic-common-1.toml.bak"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/turtlematic-common.toml"
+hash = "c73eb0d463f098575b6f9e6358d9822b4d043578352f3adf3d535e47320af7d3"
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "7c32561dc768e8acb98c8dfe323fbaa167c7a0d1c9b6c4a07af5e3e6ab0e539e"
 metafile = true
@@ -177,7 +353,27 @@ metafile = true
 
 [[files]]
 file = "readme.md"
-hash = "e1f5c2b17b5889eacfbaa76ea877f0b829c33908135a801147348a599698e107"
+hash = "98cb5696d581d1de417d64a9c8382926b00eebd709f67586d2ff584a9764b1e4"
+
+[[files]]
+file = "serverconfig/computercraft-server.toml"
+hash = "1badb7c9ea85139ee6977365e19a423575996d72c7b5eb18e0ba706bbab6cb9f"
+
+[[files]]
+file = "serverconfig/ftbchunks-world.snbt"
+hash = "e72246f0e15198bca9db6a562b669983d3991287083d9653e107c605b8ccf13b"
+
+[[files]]
+file = "serverconfig/ftbranks/README.txt"
+hash = "69f1e1046074fe05d7e6cc0265055db093e94f4e1e650b5b03c30a83d5ec1099"
+
+[[files]]
+file = "serverconfig/ftbranks/players.snbt"
+hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
+
+[[files]]
+file = "serverconfig/ftbranks/ranks.snbt"
+hash = "1afb81e4a6947511d22f1f06c66a5bb30056c642d66579f21c48279e1d66ab86"
 
 [[files]]
 file = "shell.nix"
